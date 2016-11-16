@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Store List" />
+        <item
+            android:id="@+id/nav_new_payment"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="New Payment" />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Payment History" />
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <!--
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            -->
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Quit" />
+        </menu>
+    </item>
+
+
+</menu>
